@@ -1,0 +1,7 @@
+json class -> @JsonProperty(//"name")--> use to tell json what to call an object field when being serialized 
+           -> @JsonInclude(//JsonInclude.Include.NON_NULL) --> to ignore all null attribute of an object
+           -> @JsonInclude(//JsonInclude.Include.NON_EMPTY) --> to ignore empty value .. used on fields ???.. zeros and empty
+ 
+
+alias -> @Query{ where (the database column is )-> (the alias) }
+
